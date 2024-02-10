@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import userRoutes from './routes/user.route.js';
 
 //Configamos variable de ambiente
 dotenv.config();
@@ -16,6 +17,4 @@ app.listen(3000,()=>{
     console.log('Server is running on: localhost:3000');
 });
 
-app.get("/", (req,res)=>{
-    res.send("ESTA ES LA RUTA PRINCIPAL");
-});
+app.use("/api/user", userRoutes);
