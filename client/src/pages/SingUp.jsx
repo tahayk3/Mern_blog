@@ -50,7 +50,7 @@ export default function SingUp(){
                 {/* left*/}
                 <div className="flex-1">
                     <Link to="/" className='font-bold dark:text-white text-4xl'>
-                        <span className='px-2 py-1 bg-gradient-to-r from-teal-500 text-dark'>Sahand's</span>
+                        <span className='px-2 py-1 bg-gradient-to-r from-teal-500 text-dark'>Cristian's</span>
                         Blog
                     </Link>
                     <p className="text-sm mt-5">Puedes registrate con un correo electronico y contraseña o con Google</p>

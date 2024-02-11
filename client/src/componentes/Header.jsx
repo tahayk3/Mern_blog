@@ -10,7 +10,7 @@ export default function Header(){
             {//Agregando el logo
             }
             <Link to="/" className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'>
-                <span className='px-2 py-1 bg-gradient-to-r from-teal-500 text-dark'>Sahand's</span>
+                <span className='px-2 py-1 bg-gradient-to-r from-teal-500 text-dark'>Cristian's</span>
                 Blog
             </Link>
             {//Agregando barra de busqueda en pantallas grandes
