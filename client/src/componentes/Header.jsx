@@ -36,7 +36,7 @@ export default function Header(){
                 </Button>
                 {//Botton de inicio de sesion
                 }
-                <Link to="/sign-in">
+                <Link to="/signin">
                     <Button color="gray" outline>
                         Sign In
                     </Button>
