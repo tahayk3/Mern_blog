@@ -5,7 +5,16 @@ POST http://localhost:3000/api/auth/signup HTTP/1.1
 Content-Type: application/json
 
 {
-    "username": "user34",
-    "email": "user3@gmail.com",
+    "username": "tahayk3",
+    "email": "tahayk3@gmail.com",
+    "password":"user3PW" 
+}
+
+###
+POST http://localhost:3000/api/auth/signin HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "tahayk3@gmail.com",
     "password":"user3PW" 
 }
